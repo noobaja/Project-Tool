@@ -1,0 +1,18 @@
+# Dependensi gabungan
+fastapi
+uvicorn[standard]
+celery
+redis
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+playwright
+beautifulsoup4
+scikit-learn
+tensorflow
+transformers
+pytesseract
+Pillow
+pandas
+joblib

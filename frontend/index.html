@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuardianWeb - Pengecek URL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ GuardianWeb</h1>
+            <p class="subtitle">AI-Powered URL Analyzer</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <p>Masukkan URL yang mencurigakan untuk dianalisis secara mendalam.</p>
+                <div class="input-group">
+                    <input type="url" id="url-input" placeholder="Contoh: https://contoh-situs-palsu.xyz">
+                    <button id="check-btn">Periksa</button>
+                </div>
+            </section>
+
+            <section id="result-section" class="hidden">
+                </section>
+            
+            <section id="history-section" class="hidden">
+                <h2>Riwayat Pengecekan</h2>
+                <ul id="history-list">
+                    </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 GuardianWeb</p>
+        </footer>
+    </div>
+
+    <template id="result-card-template">
+        <div class="result-card">
+            <h2 class="verdict"></h2>
+            <div class="details">
+                <p class="url-checked"></p>
+                <strong>Detail Analisis:</strong>
+                <ul class="reasons-list"></ul>
+            </div>
+        </div>
+    </template>
+    
+    <script src="script.js"></script>
+</body>
+</html>
