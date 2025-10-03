@@ -50,7 +50,7 @@ Pastikan Anda memiliki prasyarat berikut terinstal di sistem WSL/Linux Anda.
 **Langkah-langkah Persiapan:**
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/nama-anda/guardian-web-analyzer.git](https://github.com/nama-anda/guardian-web-analyzer.git)
+    git clone [https://github.com/noobaja/Project-Tool.git](https://github.com/noobaja/Project-Tool.git)
     cd guardian-web-analyzer
     ```
 2.  **Buat dan aktifkan Virtual Environment:**
